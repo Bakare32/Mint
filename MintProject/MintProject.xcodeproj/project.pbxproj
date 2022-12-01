@@ -16,6 +16,16 @@
 		04AC6772293971C4003322FA /* MintProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6771293971C4003322FA /* MintProjectUITests.swift */; };
 		04AC6774293971C4003322FA /* MintProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6773293971C4003322FA /* MintProjectUITestsLaunchTests.swift */; };
 		04AC678129397349003322FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC678029397349003322FA /* LoginViewController.swift */; };
+		04AC6783293974B2003322FA /* MainCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6782293974B2003322FA /* MainCordinator.swift */; };
+		04AC6785293974BF003322FA /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6784293974BF003322FA /* Cordinator.swift */; };
+		04AC6787293974F7003322FA /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6786293974F7003322FA /* NSObjectExt.swift */; };
+		04AC67892939750A003322FA /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67882939750A003322FA /* AppColors.swift */; };
+		04AC678B2939751D003322FA /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC678A2939751D003322FA /* UIColorExt.swift */; };
+		04AC678D2939752F003322FA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC678C2939752F003322FA /* UIViewExt.swift */; };
+		04AC678F2939754E003322FA /* NSLayoutExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC678E2939754E003322FA /* NSLayoutExt.swift */; };
+		04AC679129397567003322FA /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679029397567003322FA /* HomeDetailView.swift */; };
+		04AC679329397582003322FA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679229397582003322FA /* UIViewControllerExt.swift */; };
+		04AC679629397646003322FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC679529397646003322FA /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		04AC6771293971C4003322FA /* MintProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectUITests.swift; sourceTree = "<group>"; };
 		04AC6773293971C4003322FA /* MintProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04AC678029397349003322FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04AC6782293974B2003322FA /* MainCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCordinator.swift; sourceTree = "<group>"; };
+		04AC6784293974BF003322FA /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
+		04AC6786293974F7003322FA /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
+		04AC67882939750A003322FA /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		04AC678A2939751D003322FA /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		04AC678C2939752F003322FA /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		04AC678E2939754E003322FA /* NSLayoutExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutExt.swift; sourceTree = "<group>"; };
+		04AC679029397567003322FA /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
+		04AC679229397582003322FA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		04AC679529397646003322FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,22 @@
 		04AC674F293971C2003322FA /* MintProject */ = {
 			isa = PBXGroup;
 			children = (
+				04AC67942939762B003322FA /* Resources */,
 				04AC6750293971C2003322FA /* AppDelegate.swift */,
 				04AC6752293971C2003322FA /* SceneDelegate.swift */,
 				04AC6756293971C2003322FA /* Main.storyboard */,
-				04AC6759293971C4003322FA /* Assets.xcassets */,
 				04AC675B293971C4003322FA /* LaunchScreen.storyboard */,
 				04AC675E293971C4003322FA /* Info.plist */,
 				04AC678029397349003322FA /* LoginViewController.swift */,
+				04AC6782293974B2003322FA /* MainCordinator.swift */,
+				04AC6784293974BF003322FA /* Cordinator.swift */,
+				04AC6786293974F7003322FA /* NSObjectExt.swift */,
+				04AC67882939750A003322FA /* AppColors.swift */,
+				04AC678A2939751D003322FA /* UIColorExt.swift */,
+				04AC678C2939752F003322FA /* UIViewExt.swift */,
+				04AC678E2939754E003322FA /* NSLayoutExt.swift */,
+				04AC679029397567003322FA /* HomeDetailView.swift */,
+				04AC679229397582003322FA /* UIViewControllerExt.swift */,
 			);
 			path = MintProject;
 			sourceTree = "<group>";
@@ -125,6 +154,15 @@
 				04AC6773293971C4003322FA /* MintProjectUITestsLaunchTests.swift */,
 			);
 			path = MintProjectUITests;
+			sourceTree = "<group>";
+		};
+		04AC67942939762B003322FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04AC6759293971C4003322FA /* Assets.xcassets */,
+				04AC679529397646003322FA /* Colors.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC675D293971C4003322FA /* LaunchScreen.storyboard in Resources */,
+				04AC679629397646003322FA /* Colors.xcassets in Resources */,
 				04AC675A293971C4003322FA /* Assets.xcassets in Resources */,
 				04AC6758293971C2003322FA /* Main.storyboard in Resources */,
 			);
@@ -258,8 +297,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC678D2939752F003322FA /* UIViewExt.swift in Sources */,
 				04AC678129397349003322FA /* LoginViewController.swift in Sources */,
+				04AC679329397582003322FA /* UIViewControllerExt.swift in Sources */,
+				04AC678F2939754E003322FA /* NSLayoutExt.swift in Sources */,
+				04AC678B2939751D003322FA /* UIColorExt.swift in Sources */,
+				04AC6785293974BF003322FA /* Cordinator.swift in Sources */,
+				04AC6783293974B2003322FA /* MainCordinator.swift in Sources */,
+				04AC6787293974F7003322FA /* NSObjectExt.swift in Sources */,
+				04AC67892939750A003322FA /* AppColors.swift in Sources */,
 				04AC6751293971C2003322FA /* AppDelegate.swift in Sources */,
+				04AC679129397567003322FA /* HomeDetailView.swift in Sources */,
 				04AC6753293971C2003322FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
