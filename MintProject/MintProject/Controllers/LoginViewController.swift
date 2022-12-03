@@ -22,6 +22,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     let txtPhoneNumber = UITextField().manualLayoutable()
     let passwordStackView = UIStackView().manualLayoutable()
     let passwordLabel = UILabel().manualLayoutable()
+    private let passwordView = UIView().manualLayoutable()
     let txtPassword = UITextField().manualLayoutable()
     let imageIcon = UIImageView().manualLayoutable()
     let contentView = UIView().manualLayoutable()
@@ -84,8 +85,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         phoneNoView.apply {
             $0.layer.cornerRadius = 13
-//            $0.layer.borderWidth = 1.5
-//            $0.layer.borderColor = UIColor.clear.cgColor
+
             $0.backgroundColor = LIGHT_VIEW_COLOR
         }
         
@@ -118,14 +118,22 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             $0.font = UIFont.systemFont(ofSize: 16)
         }
         
+        passwordView.apply {
+            $0.layer.cornerRadius = 13
+
+            $0.backgroundColor = LIGHT_VIEW_COLOR
+        }
+        
         txtPassword.apply {
             $0.font = UIFont.systemFont(ofSize: 12)
 //            $0.tintColor = PRIMARY_COLOR
             $0.textColor = PRIMARY_TEXT_COLOR
             $0.backgroundColor = LIGHT_VIEW_COLOR
             $0.layer.cornerRadius = 13.0
-            $0.rightView = contentView
-            $0.rightViewMode = .always
+//            $0.rightView = contentView
+//            $0.rightViewMode = .always
+            $0.setPadding(padding: 12)
+//            $0.withImage(direction: .Right, image: UIImage(systemName: "eye")!, topSpace: 10)
             $0.delegate = self
             
         }
@@ -208,8 +216,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         phoneNoView.addSubview(txtPhoneNumber)
         loginView.addSubview(passwordStackView)
         passwordStackView.addArrangedSubview(passwordLabel)
-        passwordStackView.addArrangedSubview(txtPassword)
-        contentView.addSubview(imageIcon)
+        passwordStackView.addArrangedSubview(passwordView)
+        passwordView.addSubview(txtPassword)
+        passwordView.addSubview(imageIcon)
+//        contentView.addSubview(imageIcon)
         
         loginView.addSubview(rememberView)
         
@@ -268,8 +278,22 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             $0.topAnchor.constraint(equalTo: phoneNumberStackView.bottomAnchor, constant: 30).activate()
         }
         
-        txtPassword.apply {
+        passwordView.apply {
             $0.heightAnchor.constraint(equalToConstant: 40).activate()
+        }
+        
+        txtPassword.apply {
+            $0.centerYAnchor.constraint(equalTo: passwordView.centerYAnchor).activate()
+            $0.leadingAnchor.constraint(equalTo: passwordView.leadingAnchor, constant: 0).activate()
+            $0.trailingAnchor.constraint(equalTo: passwordView.trailingAnchor, constant: 0).activate()
+            $0.heightAnchor.constraint(equalToConstant: 40).activate()
+        }
+        
+        imageIcon.apply {
+            $0.heightAnchor.constraint(equalToConstant: 24).activate()
+            $0.widthAnchor.constraint(equalToConstant: 24).activate()
+            $0.trailingAnchor.constraint(equalTo: passwordView.trailingAnchor, constant: -10).activate()
+            $0.centerYAnchor.constraint(equalTo: passwordView.centerYAnchor).activate()
         }
         
         contentView.apply {

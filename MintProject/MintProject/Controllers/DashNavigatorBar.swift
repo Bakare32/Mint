@@ -72,9 +72,9 @@ class DashNavigationBar: UIView {
         
         titlelabel.apply {
             $0.numberOfLines = 2
-            $0.font = UIFont.systemFont(ofSize: 38)
+            $0.font = UIFont.systemFont(ofSize: 15)
             $0.textAlignment = .center
-            $0.textColor = .red
+            $0.textColor = PRIMARY_TEXT_COLOR
             $0.adjustsFontSizeToFitWidth = true
             $0.minimumScaleFactor = 0.5
         }
@@ -84,7 +84,7 @@ class DashNavigationBar: UIView {
     private func setUpAutoLayout() {
         
         leftBtnsStk.apply {
-            $0.topAnchor.constraint(equalTo: topAnchor, constant: TOP_SAFEAREA_HEIGHT + 10).isActive = true
+            $0.topAnchor.constraint(equalTo: topAnchor, constant: TOP_SAFEAREA_HEIGHT + 50).isActive = true
             $0.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15).isActive = true
         }
         
@@ -94,11 +94,11 @@ class DashNavigationBar: UIView {
         }
         
         titlelabel.apply {
-//            $0.leadingAnchor.constraint(greaterThanOrEqualTo: leftBtnsStk.trailingAnchor, constant: 20).activate()
-//            $0.trailingAnchor.constraint(greaterThanOrEqualTo: rightBtnsStk.leadingAnchor, constant: -20).activate()
+            $0.leadingAnchor.constraint(greaterThanOrEqualTo: leftBtnsStk.trailingAnchor, constant: 20).activate()
+            $0.trailingAnchor.constraint(greaterThanOrEqualTo: rightBtnsStk.leadingAnchor, constant: -20).activate()
             
             $0.centerXAnchor.constraint(equalTo: centerXAnchor).activate()
-            $0.centerYAnchor.constraint(equalTo: bottomAnchor, constant: -30).activate()
+            $0.topAnchor.constraint(equalTo: topAnchor, constant: TOP_SAFEAREA_HEIGHT + 60).activate()
         }
         
     }

@@ -56,7 +56,7 @@ class SettingsPage: UIViewController {
         }
         
         contentsScrollView.apply {
-            $0.contentInset = UIEdgeInsets(top: TOP_SAFEAREA_HEIGHT + 30, left: 0, bottom: BOTTOM_SAFEAREA_HEIGHT + 30, right: 0)
+            $0.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: BOTTOM_SAFEAREA_HEIGHT + 30, right: 0)
             $0.showsVerticalScrollIndicator = false
             $0.bouncesZoom = false
             $0.delegate = self
@@ -99,7 +99,7 @@ class SettingsPage: UIViewController {
         identificationView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 3
+            $0.tag = 4
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -108,7 +108,7 @@ class SettingsPage: UIViewController {
         nextOfView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 4
+            $0.tag = 5
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -117,7 +117,7 @@ class SettingsPage: UIViewController {
         accountView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 5
+            $0.tag = 6
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -126,7 +126,7 @@ class SettingsPage: UIViewController {
         referralsView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 6
+            $0.tag = 7
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -135,7 +135,7 @@ class SettingsPage: UIViewController {
         legalView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 7
+            $0.tag = 8
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -144,7 +144,7 @@ class SettingsPage: UIViewController {
         helpsView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 8
+            $0.tag = 9
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -153,7 +153,7 @@ class SettingsPage: UIViewController {
         systemView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 9
+            $0.tag = 10
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -162,7 +162,7 @@ class SettingsPage: UIViewController {
         bussinessView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 10
+            $0.tag = 11
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -171,7 +171,7 @@ class SettingsPage: UIViewController {
         logoutView.apply {
             $0.backgroundColor = .clear
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
-            $0.tag = 11
+            $0.tag = 12
             let profileTap = UITapGestureRecognizer(target: self, action: #selector(menuSelected(_:)))
             profileTap.accessibilityHint = "\($0.tag)"
             $0.addGestureRecognizer(profileTap)
@@ -259,7 +259,7 @@ class SettingsPage: UIViewController {
 //            coordinator?.openLegalDocuments()
         case "8":
             debugPrint("legal")
-//            coordinator?.openThemeSettings()
+            coordinator?.openLegalVC()
         case "9":
             debugPrint("help")
             

@@ -95,40 +95,7 @@ class ClickableView: UIView {
         
     }
     
-//    func updateShowButton(count: Int) {
-//
-//        if count == 0 {
-//            showButton.isHidden = true
-//        } else {
-//            showButton.apply {
-//                $0.backgroundColor = .red
-//                $0.setDropShadow(radius: 12.0, opacity: 0.2, height: 0)
-//                $0.isHidden = false
-//                $0.setTitle("\(count > 9 ? "9+" : "\(count)")", for: .normal)
-//
-//                $0.widthAnchor.constraint(equalToConstant: 24).activate()
-//                $0.heightAnchor.constraint(equalToConstant: 24).activate()
-//            }
-//        }
-//
-//    }
-//
-//    func removeIncrease() {
-//        showButton.isHidden = true
-//    }
-//
-//    func createIncrease() {
-//        showButton.apply {
-//            $0.setTitle("INCREASE", for: .normal)
-//            $0.backgroundColor = WHITE_COLOR
-//            $0.layer.cornerRadius = 12.0
-//            $0.setDropShadow(radius: 12.0, opacity: 0.2, height: 0)
-//
-//            $0.widthAnchor.constraint(equalToConstant: 74).activate()
-//            $0.heightAnchor.constraint(equalToConstant: 24).activate()
-//        }
-//        showConstraint.constant = -25
-//    }
+
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

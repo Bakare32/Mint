@@ -45,6 +45,12 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
+    
+    func openLegalVC() {
+        let vc = LegalVC()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
 }
 
 

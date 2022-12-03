@@ -39,6 +39,8 @@
 		04AC67E8293B26D9003322FA /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E7293B26D9003322FA /* UIImageViewExt.swift */; };
 		04AC67EA293B2B11003322FA /* DashNavigatorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */; };
 		04AC67EC293B2BDD003322FA /* ClickableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67EB293B2BDD003322FA /* ClickableView.swift */; };
+		04AC67F2293B3FBF003322FA /* LegalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67F1293B3FBF003322FA /* LegalVC.swift */; };
+		04AC67F4293B451D003322FA /* LegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67F3293B451D003322FA /* LegalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		04AC67E7293B26D9003322FA /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashNavigatorBar.swift; sourceTree = "<group>"; };
 		04AC67EB293B2BDD003322FA /* ClickableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableView.swift; sourceTree = "<group>"; };
+		04AC67F1293B3FBF003322FA /* LegalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalVC.swift; sourceTree = "<group>"; };
+		04AC67F3293B451D003322FA /* LegalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 				04AC679029397567003322FA /* HomeDetailView.swift */,
 				04AC679929397E18003322FA /* DetailView.swift */,
 				04AC67EB293B2BDD003322FA /* ClickableView.swift */,
+				04AC67F3293B451D003322FA /* LegalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				04AC67E3293B2156003322FA /* SupportPage.swift */,
 				04AC67E5293B216B003322FA /* SettingsPage.swift */,
 				04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */,
+				04AC67F1293B3FBF003322FA /* LegalVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 				04AC679329397582003322FA /* UIViewControllerExt.swift in Sources */,
 				04AC67E6293B216B003322FA /* SettingsPage.swift in Sources */,
 				04AC67E8293B26D9003322FA /* UIImageViewExt.swift in Sources */,
+				04AC67F2293B3FBF003322FA /* LegalVC.swift in Sources */,
 				04AC679A29397E18003322FA /* DetailView.swift in Sources */,
 				04AC67DE293B1FD6003322FA /* DashTabBar.swift in Sources */,
 				04AC678F2939754E003322FA /* NSLayoutExt.swift in Sources */,
@@ -383,6 +390,7 @@
 				04AC679829397758003322FA /* UIApplicationExt.swift in Sources */,
 				04AC6785293974BF003322FA /* Cordinator.swift in Sources */,
 				04AC67DC293B1EBE003322FA /* DashboardVC.swift in Sources */,
+				04AC67F4293B451D003322FA /* LegalView.swift in Sources */,
 				04AC6783293974B2003322FA /* MainCordinator.swift in Sources */,
 				04AC6787293974F7003322FA /* NSObjectExt.swift in Sources */,
 				04AC67E0293B2114003322FA /* TransactionsPage.swift in Sources */,
