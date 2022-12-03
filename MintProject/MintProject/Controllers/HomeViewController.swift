@@ -24,9 +24,6 @@ class HomeViewController: UIViewController {
     
     private func configureUI() {
         setBackgroundColor()
-//        setUpProperties()
-//        setupHierarchy()
-//        setUpAutoLayout()
     }
     
 

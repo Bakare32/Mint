@@ -21,7 +21,6 @@ class LegalVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationItem.setHidesBackButton(true, animated: true)
         configureUI()
     }
     
@@ -54,7 +53,6 @@ class LegalVC: UIViewController {
             $0.contentInset = UIEdgeInsets(top: TOP_SAFEAREA_HEIGHT + 30, left: 0, bottom: BOTTOM_SAFEAREA_HEIGHT + 30, right: 0)
             $0.showsVerticalScrollIndicator = false
             $0.bouncesZoom = false
-//            $0.delegate = self
         }
         
         stkContents.apply {
@@ -100,7 +98,6 @@ class LegalVC: UIViewController {
     private func setUpAutoLayout() {
         
         dashNavigationBar.apply {
-//            $0.backgroundColor = .red
             $0.topAnchor.constraint(equalTo: view.topAnchor).activate()
             $0.leadingAnchor.constraint(equalTo: view.leadingAnchor).activate()
             $0.trailingAnchor.constraint(equalTo: view.trailingAnchor).activate()

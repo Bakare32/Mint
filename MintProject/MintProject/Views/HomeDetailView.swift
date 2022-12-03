@@ -91,9 +91,6 @@ class HomeDetailView: UIView {
     }
     
     func setUpAutoLayout() {
-//        self.apply {
-//            $0.heightAnchor.constraint(equalToConstant: 150).activate()
-//        }
         
         firstStackView.apply {
             $0.topAnchor.constraint(equalTo: topAnchor, constant: 0).activate()

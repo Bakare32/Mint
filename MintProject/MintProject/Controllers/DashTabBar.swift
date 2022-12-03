@@ -129,11 +129,8 @@ class DashTabBar: UIView {
             }
             
             btnsStackView.addArrangedSubview(btnView)
-            
-//            let animation = AnimationView(name: getIsDark() ? items[i].lowercased() + "_dark" : items[i].lowercased())
+
             let imageName = "\(items[i].lowercased())" + (i == selectedIndex ? "_active" : "_inactive")
-//
-//            let image = UIImage(named: imageName)!
             
             if i == selectedIndex {
                 menuSelected(iv: imgBtn, label: lblBtn, image: UIImage(systemName: "homekit")!, animView: animView)
@@ -151,20 +148,13 @@ class DashTabBar: UIView {
         animView.backgroundColor = .red
         iv.isHidden = true
         animView.isHidden = false
-//        anim.frame = CGRect(x: -5, y: -5, width: 32, height: 32)
-//        animView.addSubview(anim)
-//        anim.contentMode = .scaleAspectFill
-//        anim.play(completion: { (finished) in
-//            animView.isHidden = true
-//            iv.isHidden = false
-//        })
+
     }
     
     func menuDeselected(iv: UIImageView, label: UILabel, image: UIImage, animView: UIView) {
         iv.image = image
         iv.tintImage(color: SECONDARY_TEXT_COLOR)
         label.textColor = SECONDARY_TEXT_COLOR
-//        anim.removeFromSuperview()
         animView.isHidden = true
     }
     

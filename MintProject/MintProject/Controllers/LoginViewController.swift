@@ -126,14 +126,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         txtPassword.apply {
             $0.font = UIFont.systemFont(ofSize: 12)
-//            $0.tintColor = PRIMARY_COLOR
             $0.textColor = PRIMARY_TEXT_COLOR
             $0.backgroundColor = LIGHT_VIEW_COLOR
             $0.layer.cornerRadius = 13.0
-//            $0.rightView = contentView
-//            $0.rightViewMode = .always
             $0.setPadding(padding: 12)
-//            $0.withImage(direction: .Right, image: UIImage(systemName: "eye")!, topSpace: 10)
             $0.delegate = self
             
         }
@@ -354,7 +350,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func doneButtonAction() {
-//        bottomDistance.constant = -20
         self.txtPhoneNumber.resignFirstResponder()
     }
     

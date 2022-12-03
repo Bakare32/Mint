@@ -238,25 +238,18 @@ class SettingsPage: UIViewController {
         switch sender.accessibilityHint {
         case "1":
             debugPrint("profile")
-//            coordinator?.openChatTopic()
         case "2":
             debugPrint("personal")
-//            coordinator?.openPersonalInfo()
         case "3":
             debugPrint("employmen")
-//            coordinator?.openNotifications()
         case "4":
             debugPrint("ident")
-//            coordinator?.openLimits()
         case "5":
             debugPrint("next")
-//            coordinator?.openShareFriendLink()
         case "6":
             debugPrint("acount")
-//            coordinator?.openPrivacy()
         case "7":
             debugPrint("refralls")
-//            coordinator?.openLegalDocuments()
         case "8":
             debugPrint("legal")
             coordinator?.openLegalVC()
@@ -265,13 +258,6 @@ class SettingsPage: UIViewController {
             
         case "10":
             debugPrint("system")
-//            if defaults.data(forKey: defaultsKeys.DASH_PLUS_PACKAGES) == nil {
-//                showSpinnerOver()
-//                plusVM.getElitePackages(accessToken: bearerToken)
-//                setUpEliteListener()
-//            } else {
-//                coordinator?.openDashPlus()
-//            }
             
         case "11":
             debugPrint("bussines")
@@ -290,30 +276,6 @@ extension SettingsPage: UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
-//        if let blurView = dashNavigationBar.subviews.first(where: { $0 is UIVisualEffectView }) as? UIVisualEffectView {
-//            if contentsScrollView.contentOffset.y <= -70 {
-//                UIView.animate(withDuration: 0.2) {
-//                    blurView.alpha = 0
-//                }
-//            } else {
-//                UIView.animate(withDuration: 0.2) {
-//                    blurView.alpha = 1
-//                }
-//            }
-//        }
-//
-//        if let lblTitle = dashNavigationBar.subviews.first(where: { $0 is UILabel }) as? UILabel {
-//            if contentsScrollView.contentOffset.y <= 70 {
-//                lblTitle.alpha = 0
-//            } else {
-//                lblTitle.text = "Waris"
-//                if lblTitle.alpha == 0 {
-//                    UIView.animate(withDuration: 0.2) {
-//                        lblTitle.alpha = 1
-//                    }
-//                }
-//            }
-//        }
     }
     
 }
