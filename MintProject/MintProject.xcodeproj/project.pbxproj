@@ -26,6 +26,19 @@
 		04AC679129397567003322FA /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679029397567003322FA /* HomeDetailView.swift */; };
 		04AC679329397582003322FA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679229397582003322FA /* UIViewControllerExt.swift */; };
 		04AC679629397646003322FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC679529397646003322FA /* Colors.xcassets */; };
+		04AC679829397758003322FA /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679729397758003322FA /* UIApplicationExt.swift */; };
+		04AC679A29397E18003322FA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC679929397E18003322FA /* DetailView.swift */; };
+		04AC67D8293AA24C003322FA /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67D7293AA24C003322FA /* UITextFieldExt.swift */; };
+		04AC67DA293AA962003322FA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67D9293AA962003322FA /* HomeViewController.swift */; };
+		04AC67DC293B1EBE003322FA /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67DB293B1EBE003322FA /* DashboardVC.swift */; };
+		04AC67DE293B1FD6003322FA /* DashTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67DD293B1FD6003322FA /* DashTabBar.swift */; };
+		04AC67E0293B2114003322FA /* TransactionsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67DF293B2114003322FA /* TransactionsPage.swift */; };
+		04AC67E2293B2138003322FA /* MorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E1293B2138003322FA /* MorePage.swift */; };
+		04AC67E4293B2156003322FA /* SupportPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E3293B2156003322FA /* SupportPage.swift */; };
+		04AC67E6293B216B003322FA /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E5293B216B003322FA /* SettingsPage.swift */; };
+		04AC67E8293B26D9003322FA /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E7293B26D9003322FA /* UIImageViewExt.swift */; };
+		04AC67EA293B2B11003322FA /* DashNavigatorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */; };
+		04AC67EC293B2BDD003322FA /* ClickableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC67EB293B2BDD003322FA /* ClickableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,19 @@
 		04AC679029397567003322FA /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
 		04AC679229397582003322FA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		04AC679529397646003322FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		04AC679729397758003322FA /* UIApplicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		04AC679929397E18003322FA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		04AC67D7293AA24C003322FA /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		04AC67D9293AA962003322FA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04AC67DB293B1EBE003322FA /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		04AC67DD293B1FD6003322FA /* DashTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashTabBar.swift; sourceTree = "<group>"; };
+		04AC67DF293B2114003322FA /* TransactionsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsPage.swift; sourceTree = "<group>"; };
+		04AC67E1293B2138003322FA /* MorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorePage.swift; sourceTree = "<group>"; };
+		04AC67E3293B2156003322FA /* SupportPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPage.swift; sourceTree = "<group>"; };
+		04AC67E5293B216B003322FA /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		04AC67E7293B26D9003322FA /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashNavigatorBar.swift; sourceTree = "<group>"; };
+		04AC67EB293B2BDD003322FA /* ClickableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,22 +145,16 @@
 		04AC674F293971C2003322FA /* MintProject */ = {
 			isa = PBXGroup;
 			children = (
+				04AC67F0293B3B9A003322FA /* Cordinators */,
+				04AC67EF293B3B6E003322FA /* Controllers */,
+				04AC67EE293B3B58003322FA /* Views */,
+				04AC67ED293B3B1B003322FA /* Extentions */,
 				04AC67942939762B003322FA /* Resources */,
 				04AC6750293971C2003322FA /* AppDelegate.swift */,
 				04AC6752293971C2003322FA /* SceneDelegate.swift */,
 				04AC6756293971C2003322FA /* Main.storyboard */,
 				04AC675B293971C4003322FA /* LaunchScreen.storyboard */,
 				04AC675E293971C4003322FA /* Info.plist */,
-				04AC678029397349003322FA /* LoginViewController.swift */,
-				04AC6782293974B2003322FA /* MainCordinator.swift */,
-				04AC6784293974BF003322FA /* Cordinator.swift */,
-				04AC6786293974F7003322FA /* NSObjectExt.swift */,
-				04AC67882939750A003322FA /* AppColors.swift */,
-				04AC678A2939751D003322FA /* UIColorExt.swift */,
-				04AC678C2939752F003322FA /* UIViewExt.swift */,
-				04AC678E2939754E003322FA /* NSLayoutExt.swift */,
-				04AC679029397567003322FA /* HomeDetailView.swift */,
-				04AC679229397582003322FA /* UIViewControllerExt.swift */,
 			);
 			path = MintProject;
 			sourceTree = "<group>";
@@ -163,6 +183,57 @@
 				04AC679529397646003322FA /* Colors.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		04AC67ED293B3B1B003322FA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				04AC67882939750A003322FA /* AppColors.swift */,
+				04AC6786293974F7003322FA /* NSObjectExt.swift */,
+				04AC678A2939751D003322FA /* UIColorExt.swift */,
+				04AC678C2939752F003322FA /* UIViewExt.swift */,
+				04AC678E2939754E003322FA /* NSLayoutExt.swift */,
+				04AC679229397582003322FA /* UIViewControllerExt.swift */,
+				04AC679729397758003322FA /* UIApplicationExt.swift */,
+				04AC67D7293AA24C003322FA /* UITextFieldExt.swift */,
+				04AC67E7293B26D9003322FA /* UIImageViewExt.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		04AC67EE293B3B58003322FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04AC679029397567003322FA /* HomeDetailView.swift */,
+				04AC679929397E18003322FA /* DetailView.swift */,
+				04AC67EB293B2BDD003322FA /* ClickableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04AC67EF293B3B6E003322FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04AC67D9293AA962003322FA /* HomeViewController.swift */,
+				04AC678029397349003322FA /* LoginViewController.swift */,
+				04AC67DB293B1EBE003322FA /* DashboardVC.swift */,
+				04AC67DD293B1FD6003322FA /* DashTabBar.swift */,
+				04AC67DF293B2114003322FA /* TransactionsPage.swift */,
+				04AC67E1293B2138003322FA /* MorePage.swift */,
+				04AC67E3293B2156003322FA /* SupportPage.swift */,
+				04AC67E5293B216B003322FA /* SettingsPage.swift */,
+				04AC67E9293B2B11003322FA /* DashNavigatorBar.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04AC67F0293B3B9A003322FA /* Cordinators */ = {
+			isa = PBXGroup;
+			children = (
+				04AC6784293974BF003322FA /* Cordinator.swift */,
+				04AC6782293974B2003322FA /* MainCordinator.swift */,
+			);
+			path = Cordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,16 +368,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC67D8293AA24C003322FA /* UITextFieldExt.swift in Sources */,
+				04AC67EA293B2B11003322FA /* DashNavigatorBar.swift in Sources */,
+				04AC67E2293B2138003322FA /* MorePage.swift in Sources */,
 				04AC678D2939752F003322FA /* UIViewExt.swift in Sources */,
 				04AC678129397349003322FA /* LoginViewController.swift in Sources */,
 				04AC679329397582003322FA /* UIViewControllerExt.swift in Sources */,
+				04AC67E6293B216B003322FA /* SettingsPage.swift in Sources */,
+				04AC67E8293B26D9003322FA /* UIImageViewExt.swift in Sources */,
+				04AC679A29397E18003322FA /* DetailView.swift in Sources */,
+				04AC67DE293B1FD6003322FA /* DashTabBar.swift in Sources */,
 				04AC678F2939754E003322FA /* NSLayoutExt.swift in Sources */,
 				04AC678B2939751D003322FA /* UIColorExt.swift in Sources */,
+				04AC679829397758003322FA /* UIApplicationExt.swift in Sources */,
 				04AC6785293974BF003322FA /* Cordinator.swift in Sources */,
+				04AC67DC293B1EBE003322FA /* DashboardVC.swift in Sources */,
 				04AC6783293974B2003322FA /* MainCordinator.swift in Sources */,
 				04AC6787293974F7003322FA /* NSObjectExt.swift in Sources */,
+				04AC67E0293B2114003322FA /* TransactionsPage.swift in Sources */,
+				04AC67DA293AA962003322FA /* HomeViewController.swift in Sources */,
 				04AC67892939750A003322FA /* AppColors.swift in Sources */,
+				04AC67E4293B2156003322FA /* SupportPage.swift in Sources */,
 				04AC6751293971C2003322FA /* AppDelegate.swift in Sources */,
+				04AC67EC293B2BDD003322FA /* ClickableView.swift in Sources */,
 				04AC679129397567003322FA /* HomeDetailView.swift in Sources */,
 				04AC6753293971C2003322FA /* SceneDelegate.swift in Sources */,
 			);

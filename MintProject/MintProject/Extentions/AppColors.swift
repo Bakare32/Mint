@@ -9,6 +9,8 @@
 import UIKit
 
 let WHITE_COLOR = UIColor(hex: "FFFFFF")
+let LABEL_COLOR = UIColor(hex: "717474")
+let GOLD = UIColor(hex: "FF9F0A")
 
 // Dark Mode Support
 let PRIMARY_TEXT_COLOR = UIColor(named: "PrimaryTextColor") ?? UIColor()
@@ -27,3 +29,8 @@ let TEN_BLACK = UIColor(named: "TenBlack") ?? UIColor()
 let ACTIVE_COLOR = UIColor(named: "ActiveColor") ?? UIColor()
 let SHIMMER_COLOR = UIColor(named: "ShimmerColor") ?? UIColor()
 let SHADOW = UIColor(named: "ShadowColor") ?? UIColor()
+let TRANSPARENT = UIColor.white.withAlphaComponent(0)
+let DARK_SHADOW = UIColor(hex: "0C1010")
+let RED_SHADOW = UIColor(hex: "FBE8EE")
+let TOAST_RED = UIColor(hex: "FF3B30")
+let TOAST_GREEN = UIColor(hex: "34C759")
